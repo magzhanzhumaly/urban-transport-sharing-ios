@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F73A4C4E5D36160DA3033C /* Pods_Urban_Transport_Sharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0BF6A939D140210FEBA0B4 /* Pods_Urban_Transport_Sharing.framework */; };
+		560D2C9227DE5BAF0040FBA5 /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560D2C9127DE5BAF0040FBA5 /* RegistrationModel.swift */; };
+		561741C427A2A5B7008873E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561741C327A2A5B7008873E9 /* AppDelegate.swift */; };
+		561741C627A2A5B7008873E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561741C527A2A5B7008873E9 /* SceneDelegate.swift */; };
+		561741CD27A2A5BD008873E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561741CC27A2A5BD008873E9 /* Assets.xcassets */; };
+		561741D027A2A5BD008873E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561741CE27A2A5BD008873E9 /* LaunchScreen.storyboard */; };
+		562FCF6027C7B12900E9A353 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562FCF5F27C7B12900E9A353 /* MainPageViewController.swift */; };
+		56400F9927E8DBF900CF0305 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56400F9827E8DBF900CF0305 /* WelcomePageViewController.swift */; };
+		564094D62810678300BB8A31 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564094D52810678300BB8A31 /* UserManager.swift */; };
+		564094D82810679900BB8A31 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564094D72810679900BB8A31 /* UserData.swift */; };
+		564094DA281067A300BB8A31 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564094D9281067A300BB8A31 /* UserModel.swift */; };
+		566545A827DBB33D0096A6F7 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566545A727DBB33C0096A6F7 /* LoginModel.swift */; };
+		5677286127C79E080094123A /* RegistrationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5677286027C79E080094123A /* RegistrationPageViewController.swift */; };
+		568E23E6280EDA370071100F /* PersonalCabinetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568E23E5280EDA370071100F /* PersonalCabinetViewController.swift */; };
+		56D8B2F227F4AB93000D5B31 /* TransportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8B2F127F4AB91000D5B31 /* TransportModel.swift */; };
+		56D8B2F427F4AC41000D5B31 /* TransportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8B2F327F4AC41000D5B31 /* TransportManager.swift */; };
+		56D8B2F627F4AF00000D5B31 /* TransportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D8B2F527F4AF00000D5B31 /* TransportData.swift */; };
+		56E323C62801F3E70025EA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E323C42801F3E70025EA89 /* Main.storyboard */; };
+		56E323C8280207AF0025EA89 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E323C7280207AF0025EA89 /* LoginPageViewController.swift */; };
+		56EAAFF827CFF66A00E0FE88 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAAFF727CFF66A00E0FE88 /* LoginData.swift */; };
+		56EAAFFA27CFF67B00E0FE88 /* RegistrationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAAFF927CFF67B00E0FE88 /* RegistrationData.swift */; };
+		56EAAFFC27CFF68E00E0FE88 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAAFFB27CFF68E00E0FE88 /* LoginManager.swift */; };
+		56EAAFFE27CFF69D00E0FE88 /* RegistrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAAFFD27CFF69D00E0FE88 /* RegistrationManager.swift */; };
+		68CEB3DC8AE0FCD9E395C4C6 /* Pods_Urban_Transport_SharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31B847B7C97C7FEA9EEA0E2 /* Pods_Urban_Transport_SharingTests.framework */; };
+		E2CACD034B8DD53346FC9F99 /* Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DEF895166FE6137CB14642 /* Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561741D727A2A5BD008873E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561741B827A2A5B6008873E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561741BF27A2A5B7008873E9;
+			remoteInfo = "Urban Transport Sharing";
+		};
+		561741E127A2A5BD008873E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561741B827A2A5B6008873E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561741BF27A2A5B7008873E9;
+			remoteInfo = "Urban Transport Sharing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5688BF8C27DF635100A69915 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06F4E6AB09995B000C6CDEAB /* Pods-Urban Transport SharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban Transport SharingTests.release.xcconfig"; path = "Target Support Files/Pods-Urban Transport SharingTests/Pods-Urban Transport SharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B4E2CBD402D03CB8F04ABF0 /* Pods-Urban Transport Sharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban Transport Sharing.debug.xcconfig"; path = "Target Support Files/Pods-Urban Transport Sharing/Pods-Urban Transport Sharing.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0BF6A939D140210FEBA0B4 /* Pods_Urban_Transport_Sharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Urban_Transport_Sharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		560D2C9127DE5BAF0040FBA5 /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		561741C027A2A5B7008873E9 /* Urban Transport Sharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urban Transport Sharing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561741C327A2A5B7008873E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561741C527A2A5B7008873E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		561741CC27A2A5BD008873E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561741CF27A2A5BD008873E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561741D127A2A5BD008873E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561741D627A2A5BD008873E9 /* Urban Transport SharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Urban Transport SharingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561741E027A2A5BD008873E9 /* Urban Transport SharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Urban Transport SharingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562FCF5F27C7B12900E9A353 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		56400F9827E8DBF900CF0305 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		564094D52810678300BB8A31 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		564094D72810679900BB8A31 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		564094D9281067A300BB8A31 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		566545A727DBB33C0096A6F7 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		5677286027C79E080094123A /* RegistrationPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPageViewController.swift; sourceTree = "<group>"; };
+		568E23E5280EDA370071100F /* PersonalCabinetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalCabinetViewController.swift; sourceTree = "<group>"; };
+		56D8B2F127F4AB91000D5B31 /* TransportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportModel.swift; sourceTree = "<group>"; };
+		56D8B2F327F4AC41000D5B31 /* TransportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportManager.swift; sourceTree = "<group>"; };
+		56D8B2F527F4AF00000D5B31 /* TransportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportData.swift; sourceTree = "<group>"; };
+		56E323C52801F3E70025EA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56E323C7280207AF0025EA89 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		56EAAFF727CFF66A00E0FE88 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		56EAAFF927CFF67B00E0FE88 /* RegistrationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationData.swift; sourceTree = "<group>"; };
+		56EAAFFB27CFF68E00E0FE88 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		56EAAFFD27CFF69D00E0FE88 /* RegistrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationManager.swift; sourceTree = "<group>"; };
+		606A3CEB2B16FE52DA70C928 /* Pods-Urban Transport Sharing-Urban Transport SharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban Transport Sharing-Urban Transport SharingUITests.release.xcconfig"; path = "Target Support Files/Pods-Urban Transport Sharing-Urban Transport SharingUITests/Pods-Urban Transport Sharing-Urban Transport SharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A31B847B7C97C7FEA9EEA0E2 /* Pods_Urban_Transport_SharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Urban_Transport_SharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DEF895166FE6137CB14642 /* Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CE990D744ACD4DFEEC76D4 /* Pods-Urban Transport SharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban Transport SharingTests.debug.xcconfig"; path = "Target Support Files/Pods-Urban Transport SharingTests/Pods-Urban Transport SharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E53C960EE60FADF7169850BC /* Pods-Urban Transport Sharing-Urban Transport SharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban Transport Sharing-Urban Transport SharingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Urban Transport Sharing-Urban Transport SharingUITests/Pods-Urban Transport Sharing-Urban Transport SharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC4C5555D598DF560CCF7875 /* Pods-Urban Transport Sharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Urban Transport Sharing.release.xcconfig"; path = "Target Support Files/Pods-Urban Transport Sharing/Pods-Urban Transport Sharing.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561741BD27A2A5B7008873E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F73A4C4E5D36160DA3033C /* Pods_Urban_Transport_Sharing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561741D327A2A5BD008873E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CEB3DC8AE0FCD9E395C4C6 /* Pods_Urban_Transport_SharingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561741DD27A2A5BD008873E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2CACD034B8DD53346FC9F99 /* Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1191C0EA9518A09D48DC79F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0BF6A939D140210FEBA0B4 /* Pods_Urban_Transport_Sharing.framework */,
+				A7DEF895166FE6137CB14642 /* Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests.framework */,
+				A31B847B7C97C7FEA9EEA0E2 /* Pods_Urban_Transport_SharingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C9CACB7156B6592246DD42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E2CBD402D03CB8F04ABF0 /* Pods-Urban Transport Sharing.debug.xcconfig */,
+				EC4C5555D598DF560CCF7875 /* Pods-Urban Transport Sharing.release.xcconfig */,
+				E53C960EE60FADF7169850BC /* Pods-Urban Transport Sharing-Urban Transport SharingUITests.debug.xcconfig */,
+				606A3CEB2B16FE52DA70C928 /* Pods-Urban Transport Sharing-Urban Transport SharingUITests.release.xcconfig */,
+				D9CE990D744ACD4DFEEC76D4 /* Pods-Urban Transport SharingTests.debug.xcconfig */,
+				06F4E6AB09995B000C6CDEAB /* Pods-Urban Transport SharingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		561741B727A2A5B6008873E9 = {
+			isa = PBXGroup;
+			children = (
+				561741C227A2A5B7008873E9 /* Urban Transport Sharing */,
+				561741C127A2A5B7008873E9 /* Products */,
+				17C9CACB7156B6592246DD42 /* Pods */,
+				1191C0EA9518A09D48DC79F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		561741C127A2A5B7008873E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561741C027A2A5B7008873E9 /* Urban Transport Sharing.app */,
+				561741D627A2A5BD008873E9 /* Urban Transport SharingTests.xctest */,
+				561741E027A2A5BD008873E9 /* Urban Transport SharingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561741C227A2A5B7008873E9 /* Urban Transport Sharing */ = {
+			isa = PBXGroup;
+			children = (
+				5677285F27C79D400094123A /* Models */,
+				5677285E27C79D3B0094123A /* Views */,
+				5677285C27C79D090094123A /* Controllers */,
+				561741C527A2A5B7008873E9 /* SceneDelegate.swift */,
+				561741C327A2A5B7008873E9 /* AppDelegate.swift */,
+				561741CC27A2A5BD008873E9 /* Assets.xcassets */,
+				561741CE27A2A5BD008873E9 /* LaunchScreen.storyboard */,
+				561741D127A2A5BD008873E9 /* Info.plist */,
+			);
+			path = "Urban Transport Sharing";
+			sourceTree = "<group>";
+		};
+		5677285C27C79D090094123A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				56400F9827E8DBF900CF0305 /* WelcomePageViewController.swift */,
+				56E323C7280207AF0025EA89 /* LoginPageViewController.swift */,
+				5677286027C79E080094123A /* RegistrationPageViewController.swift */,
+				562FCF5F27C7B12900E9A353 /* MainPageViewController.swift */,
+				568E23E5280EDA370071100F /* PersonalCabinetViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5677285E27C79D3B0094123A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				56E323C42801F3E70025EA89 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5677285F27C79D400094123A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56EAAFF727CFF66A00E0FE88 /* LoginData.swift */,
+				56EAAFFB27CFF68E00E0FE88 /* LoginManager.swift */,
+				566545A727DBB33C0096A6F7 /* LoginModel.swift */,
+				56EAAFF927CFF67B00E0FE88 /* RegistrationData.swift */,
+				56EAAFFD27CFF69D00E0FE88 /* RegistrationManager.swift */,
+				560D2C9127DE5BAF0040FBA5 /* RegistrationModel.swift */,
+				56D8B2F527F4AF00000D5B31 /* TransportData.swift */,
+				56D8B2F327F4AC41000D5B31 /* TransportManager.swift */,
+				56D8B2F127F4AB91000D5B31 /* TransportModel.swift */,
+				564094D52810678300BB8A31 /* UserManager.swift */,
+				564094D72810679900BB8A31 /* UserData.swift */,
+				564094D9281067A300BB8A31 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561741BF27A2A5B7008873E9 /* Urban Transport Sharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561741EA27A2A5BD008873E9 /* Build configuration list for PBXNativeTarget "Urban Transport Sharing" */;
+			buildPhases = (
+				F2C6D518401D24DCA7ECE6CC /* [CP] Check Pods Manifest.lock */,
+				561741BC27A2A5B7008873E9 /* Sources */,
+				561741BD27A2A5B7008873E9 /* Frameworks */,
+				561741BE27A2A5B7008873E9 /* Resources */,
+				5688BF8C27DF635100A69915 /* Embed Frameworks */,
+				4327664044A637317715AE21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Urban Transport Sharing";
+			productName = "Urban Transport Sharing";
+			productReference = 561741C027A2A5B7008873E9 /* Urban Transport Sharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561741D527A2A5BD008873E9 /* Urban Transport SharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561741ED27A2A5BD008873E9 /* Build configuration list for PBXNativeTarget "Urban Transport SharingTests" */;
+			buildPhases = (
+				2F3441993BB5ACCD65073871 /* [CP] Check Pods Manifest.lock */,
+				561741D227A2A5BD008873E9 /* Sources */,
+				561741D327A2A5BD008873E9 /* Frameworks */,
+				561741D427A2A5BD008873E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561741D827A2A5BD008873E9 /* PBXTargetDependency */,
+			);
+			name = "Urban Transport SharingTests";
+			productName = "Urban Transport SharingTests";
+			productReference = 561741D627A2A5BD008873E9 /* Urban Transport SharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561741DF27A2A5BD008873E9 /* Urban Transport SharingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561741F027A2A5BD008873E9 /* Build configuration list for PBXNativeTarget "Urban Transport SharingUITests" */;
+			buildPhases = (
+				7E90BF74062BDE25A6F132C6 /* [CP] Check Pods Manifest.lock */,
+				561741DC27A2A5BD008873E9 /* Sources */,
+				561741DD27A2A5BD008873E9 /* Frameworks */,
+				561741DE27A2A5BD008873E9 /* Resources */,
+				3AB6394C979C585EE153F8AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561741E227A2A5BD008873E9 /* PBXTargetDependency */,
+			);
+			name = "Urban Transport SharingUITests";
+			productName = "Urban Transport SharingUITests";
+			productReference = 561741E027A2A5BD008873E9 /* Urban Transport SharingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561741B827A2A5B6008873E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					561741BF27A2A5B7008873E9 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					561741D527A2A5BD008873E9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 561741BF27A2A5B7008873E9;
+					};
+					561741DF27A2A5BD008873E9 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 561741BF27A2A5B7008873E9;
+					};
+				};
+			};
+			buildConfigurationList = 561741BB27A2A5B6008873E9 /* Build configuration list for PBXProject "Urban Transport Sharing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561741B727A2A5B6008873E9;
+			productRefGroup = 561741C127A2A5B7008873E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561741BF27A2A5B7008873E9 /* Urban Transport Sharing */,
+				561741D527A2A5BD008873E9 /* Urban Transport SharingTests */,
+				561741DF27A2A5BD008873E9 /* Urban Transport SharingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561741BE27A2A5B7008873E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561741D027A2A5BD008873E9 /* LaunchScreen.storyboard in Resources */,
+				561741CD27A2A5BD008873E9 /* Assets.xcassets in Resources */,
+				56E323C62801F3E70025EA89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561741D427A2A5BD008873E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561741DE27A2A5BD008873E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F3441993BB5ACCD65073871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Urban Transport SharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB6394C979C585EE153F8AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Urban Transport Sharing-Urban Transport SharingUITests/Pods-Urban Transport Sharing-Urban Transport SharingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Urban Transport Sharing-Urban Transport SharingUITests/Pods-Urban Transport Sharing-Urban Transport SharingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Urban Transport Sharing-Urban Transport SharingUITests/Pods-Urban Transport Sharing-Urban Transport SharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4327664044A637317715AE21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Urban Transport Sharing/Pods-Urban Transport Sharing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Urban Transport Sharing/Pods-Urban Transport Sharing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Urban Transport Sharing/Pods-Urban Transport Sharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E90BF74062BDE25A6F132C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Urban Transport Sharing-Urban Transport SharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2C6D518401D24DCA7ECE6CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Urban Transport Sharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561741BC27A2A5B7008873E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EAAFFA27CFF67B00E0FE88 /* RegistrationData.swift in Sources */,
+				56EAAFFC27CFF68E00E0FE88 /* LoginManager.swift in Sources */,
+				56D8B2F227F4AB93000D5B31 /* TransportModel.swift in Sources */,
+				560D2C9227DE5BAF0040FBA5 /* RegistrationModel.swift in Sources */,
+				56D8B2F627F4AF00000D5B31 /* TransportData.swift in Sources */,
+				562FCF6027C7B12900E9A353 /* MainPageViewController.swift in Sources */,
+				56EAAFFE27CFF69D00E0FE88 /* RegistrationManager.swift in Sources */,
+				566545A827DBB33D0096A6F7 /* LoginModel.swift in Sources */,
+				561741C427A2A5B7008873E9 /* AppDelegate.swift in Sources */,
+				56400F9927E8DBF900CF0305 /* WelcomePageViewController.swift in Sources */,
+				56D8B2F427F4AC41000D5B31 /* TransportManager.swift in Sources */,
+				5677286127C79E080094123A /* RegistrationPageViewController.swift in Sources */,
+				564094D82810679900BB8A31 /* UserData.swift in Sources */,
+				56E323C8280207AF0025EA89 /* LoginPageViewController.swift in Sources */,
+				561741C627A2A5B7008873E9 /* SceneDelegate.swift in Sources */,
+				564094DA281067A300BB8A31 /* UserModel.swift in Sources */,
+				56EAAFF827CFF66A00E0FE88 /* LoginData.swift in Sources */,
+				568E23E6280EDA370071100F /* PersonalCabinetViewController.swift in Sources */,
+				564094D62810678300BB8A31 /* UserManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561741D227A2A5BD008873E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561741DC27A2A5BD008873E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561741D827A2A5BD008873E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561741BF27A2A5B7008873E9 /* Urban Transport Sharing */;
+			targetProxy = 561741D727A2A5BD008873E9 /* PBXContainerItemProxy */;
+		};
+		561741E227A2A5BD008873E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561741BF27A2A5B7008873E9 /* Urban Transport Sharing */;
+			targetProxy = 561741E127A2A5BD008873E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561741CE27A2A5BD008873E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561741CF27A2A5BD008873E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		56E323C42801F3E70025EA89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56E323C52801F3E70025EA89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561741E827A2A5BD008873E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561741E927A2A5BD008873E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561741EB27A2A5BD008873E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4E2CBD402D03CB8F04ABF0 /* Pods-Urban Transport Sharing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FD5GB5JXX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Urban Transport Sharing/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = UTS;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Shows your location on the map and helps improve the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magzhanzhumaly.Urban-Transport-Sharing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		561741EC27A2A5BD008873E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4C5555D598DF560CCF7875 /* Pods-Urban Transport Sharing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FD5GB5JXX8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Urban Transport Sharing/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = UTS;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Shows your location on the map and helps improve the map.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magzhanzhumaly.Urban-Transport-Sharing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		561741EE27A2A5BD008873E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CE990D744ACD4DFEEC76D4 /* Pods-Urban Transport SharingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magzhanzhumaly.Urban-Transport-SharingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban Transport Sharing.app/Urban Transport Sharing";
+			};
+			name = Debug;
+		};
+		561741EF27A2A5BD008873E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F4E6AB09995B000C6CDEAB /* Pods-Urban Transport SharingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magzhanzhumaly.Urban-Transport-SharingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban Transport Sharing.app/Urban Transport Sharing";
+			};
+			name = Release;
+		};
+		561741F127A2A5BD008873E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53C960EE60FADF7169850BC /* Pods-Urban Transport Sharing-Urban Transport SharingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magzhanzhumaly.Urban-Transport-SharingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Urban Transport Sharing";
+			};
+			name = Debug;
+		};
+		561741F227A2A5BD008873E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 606A3CEB2B16FE52DA70C928 /* Pods-Urban Transport Sharing-Urban Transport SharingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magzhanzhumaly.Urban-Transport-SharingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Urban Transport Sharing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561741BB27A2A5B6008873E9 /* Build configuration list for PBXProject "Urban Transport Sharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561741E827A2A5BD008873E9 /* Debug */,
+				561741E927A2A5BD008873E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561741EA27A2A5BD008873E9 /* Build configuration list for PBXNativeTarget "Urban Transport Sharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561741EB27A2A5BD008873E9 /* Debug */,
+				561741EC27A2A5BD008873E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561741ED27A2A5BD008873E9 /* Build configuration list for PBXNativeTarget "Urban Transport SharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561741EE27A2A5BD008873E9 /* Debug */,
+				561741EF27A2A5BD008873E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561741F027A2A5BD008873E9 /* Build configuration list for PBXNativeTarget "Urban Transport SharingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561741F127A2A5BD008873E9 /* Debug */,
+				561741F227A2A5BD008873E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561741B827A2A5B6008873E9 /* Project object */;
+}
