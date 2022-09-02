@@ -1,6 +1,0 @@
-framework module Pods_Urban_Transport_Sharing {
-  umbrella header "Pods-Urban Transport Sharing-umbrella.h"
-
-  export *
-  module * { export * }
-}

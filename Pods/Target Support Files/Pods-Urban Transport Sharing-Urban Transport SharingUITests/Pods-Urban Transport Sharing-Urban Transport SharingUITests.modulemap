@@ -1,6 +1,0 @@
-framework module Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests {
-  umbrella header "Pods-Urban Transport Sharing-Urban Transport SharingUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

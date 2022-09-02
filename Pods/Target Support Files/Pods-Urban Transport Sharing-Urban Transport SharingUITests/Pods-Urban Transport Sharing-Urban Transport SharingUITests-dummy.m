@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests : NSObject
-@end
-@implementation PodsDummy_Pods_Urban_Transport_Sharing_Urban_Transport_SharingUITests
-@end
